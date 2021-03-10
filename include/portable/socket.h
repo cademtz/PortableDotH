@@ -32,4 +32,4 @@
 
 #endif
 
-#define SOCKET_VALID(sock) ((sock < 0) || (sock == -1)) // Due to unsigned versus signed socket types
+#define SOCKET_INVALID(sock) ((sock < 0) || (sock == -1)) // Due to unsigned versus signed socket types
